@@ -1,0 +1,184 @@
+body{
+   /* background-color: rgb(240, 240, 240);*/
+   background-color: white;
+    height: 100vh;
+}
+main{
+    width: 70%;
+    height: 30rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+    background: white;
+    z-index: 1;
+    box-shadow: 1px 2px 15px 7px rgb(222, 222, 222);
+}
+footer{
+    padding-left: 0;
+}
+
+footer img{
+    position: relative;
+    left: -2.5rem;
+    bottom: 40.7rem;
+    height: 7rem;    
+}
+
+.tanya{
+    width: 35%;
+    height: 20rem;
+    position: relative;
+    bottom: 38rem;
+    left: 28rem;
+    box-shadow: 0px 1px 10px  rgb(149, 149, 150);
+}
+.pattern-bg{
+    position: relative;
+    left: 23rem;
+    bottom:15rem;
+    width: 30rem;
+    height: 25rem;
+}
+.quote{
+    position: relative;
+    z-index: 1;
+    top: 5rem;
+    left: 5rem;
+    width: 80%;
+}
+.quote-text1{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+.quote-name{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+#role{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+    color: rgb(214, 212, 222);
+}
+.quote-icon{
+    height: 4rem;
+    width: 4rem;
+    position: relative;
+    top: 3rem;
+    left: 1rem;
+}
+.icons{
+    position: relative;
+    bottom: 40.5rem;
+    width: 3rem;
+    left: 30rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+    background-color: white;
+            
+}
+.icon-next, .icon-prev{
+    cursor: pointer;
+    height: 12px;
+}
+
+@media (max-width: 600px) {
+    body {
+      background-color: white;
+      margin: 0;
+      padding: 0;
+    }
+    main{
+    margin: 0em;
+    padding: 0em;
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 1;
+    box-shadow: 1px 2px 15px 7px rgb(222, 222, 222);
+    padding-bottom: 12.5rem;
+    }
+    .pattern-bg{
+        position: relative;
+        left: 0rem;
+        bottom:15rem;
+        width: 30rem;
+        height: 25rem;
+    }
+    .tanya{
+        width: 70%;
+        height: 20rem;
+        position: relative;
+        bottom: 38rem;
+        left: 5rem;
+        box-shadow: 0px 1px 10px  rgb(149, 149, 150);
+    }
+
+    footer img{
+        position: relative;
+        left: -2.5rem;
+        bottom: 23.7rem;
+        height: 7rem;  
+
+    }
+    .icons{
+        position: relative;
+        bottom: 40.5rem;
+        width: 3rem;
+        left: 13rem;
+        padding: 0.5rem;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 50px;
+        background-color: white;
+                
+    }
+    .quote{
+        position: relative;
+        z-index: 1;
+        top: 25rem;
+        left: 5rem;
+        width: 80%;
+    }
+    .quote-text1{
+        font-family: 'Inter', sans-serif;
+        font-size: 1.4rem;
+        font-weight: 300;
+        text-align:  center;
+    }
+    .quote-name{
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        position: relative;
+        top: 0.5rem;
+        left: 9rem;
+    }
+    #role{
+        font-family: 'Inter', sans-serif;
+        font-weight: 300;
+        font-size: 0.9rem;
+        color: rgb(214, 212, 222);
+        position: relative;
+        top: 1.8rem;
+        left:2.7rem ;
+    }
+    .quote-icon{
+        height: 4rem;
+        width: 4rem;
+        position: relative;
+        top: 3rem;
+        left: 9rem;
+    }
+    .attribution{
+        margin-top: 3rem;
+    }
+    .icon-next, .icon-prev{
+        cursor: pointer;
+        height: 12px;
+    }
+  }
